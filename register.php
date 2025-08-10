@@ -20,3 +20,27 @@
       }
       .content h2 {
         text-align: center;
+      }
+      
+      label {
+        display: block;
+        margin-top: 12px;
+        margin-bottom: 4px;
+      }
+      input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        background: #3498db;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+      }
