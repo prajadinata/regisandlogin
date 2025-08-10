@@ -67,4 +67,14 @@
         <form action="#">
           <h2>Register</h2>
           <label for="fullname">Fullname</label>
-          <input type="text"
+          <input type="text" id="fullname" name="fullname" placeholder="Input here" required>
+          
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="Input here" required>
+          
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Input here" required>
+          <hr>
+          <button type="submit" name="register">Register</button>
+          <p>Already have an account? <a href="#">Login</a></p>
+        </form>
