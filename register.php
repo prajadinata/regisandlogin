@@ -44,3 +44,27 @@
         font-size: 16px;
         cursor: pointer;
       }
+
+       button:hover {
+        background: #2980b9;
+      }
+      p {
+        text-align: center;
+        margin-top: 16px;
+      }
+      a {
+        color: #3498db;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <form action="#">
+          <h2>Register</h2>
+          <label for="fullname">Fullname</label>
+          <input type="text"
