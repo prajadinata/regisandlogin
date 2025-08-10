@@ -78,3 +78,7 @@
           <button type="submit" name="register">Register</button>
           <p>Already have an account? <a href="#">Login</a></p>
         </form>
+        </div>
+    </div>
+  </body>
+</html>
