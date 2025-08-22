@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <div class="content">
-        <form action="#" method="">
+        <form action="#" method="post.">
           <h2>Login</h2>
           <label for="username">Username:</label>
           <input type="text" name="username" placeholder="Input here" required>
